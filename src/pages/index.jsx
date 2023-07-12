@@ -5,6 +5,7 @@ import Head from "next/head";
 import SaleCard from "@/components/cards/SaleCard";
 
 import styles from "@/styles/index.module.css";
+import GameCard from "@/components/cards/GameCard";
 
 export default function Home() {
 	return (
@@ -23,14 +24,15 @@ export default function Home() {
 				<Container>
 					<div className={styles.session}>
 						<Subtitle children="Promoções" />
-					</div>
-					<div className={styles["sale-container"]}>
-						<SaleCard />
-						<SaleCard />
-						<SaleCard />
+						<div className={styles["sale-container"]}>
+							<SaleCard />
+							<SaleCard />
+							<SaleCard />
+						</div>
 					</div>
 					<div className={styles.session}>
 						<Subtitle children="Outros jogos" />
+						<GameCard />
 					</div>
 				</Container>
 			</div>

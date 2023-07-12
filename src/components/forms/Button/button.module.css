@@ -1,5 +1,4 @@
 .button {
-  width: 100%;
   padding: 15px 5px;
   border-radius: 8px;
   border: none;
@@ -14,4 +13,8 @@
 
 .button:hover {
     background-color: #6aae00;
+  }
+
+  .full-width {
+    width: 100%;
   }
