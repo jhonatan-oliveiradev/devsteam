@@ -1,5 +1,8 @@
 import Navbar from "@/components/Navbar";
+import Container from "@/components/Container";
+import Subtitle from "@/components/typography/Subtitle";
 import Head from "next/head";
+import SaleCard from "@/components/cards/SaleCard";
 
 export default function Home() {
 	return (
@@ -15,6 +18,15 @@ export default function Home() {
 			</Head>
 			<div>
 				<Navbar />
+				<Container>
+					<div>
+						<Subtitle children="Promoções" />
+					</div>
+					<SaleCard />
+					<div>
+						<Subtitle children="Outros jogos" />
+					</div>
+				</Container>
 			</div>
 		</>
 	);
