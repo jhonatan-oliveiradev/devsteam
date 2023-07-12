@@ -4,6 +4,8 @@ import Subtitle from "@/components/typography/Subtitle";
 import Head from "next/head";
 import SaleCard from "@/components/cards/SaleCard";
 
+import styles from "@/styles/index.module.css";
+
 export default function Home() {
 	return (
 		<>
@@ -19,11 +21,15 @@ export default function Home() {
 			<div>
 				<Navbar />
 				<Container>
-					<div>
+					<div className={styles.session}>
 						<Subtitle children="Promoções" />
 					</div>
-					<SaleCard />
-					<div>
+					<div className={styles["sale-container"]}>
+						<SaleCard />
+						<SaleCard />
+						<SaleCard />
+					</div>
+					<div className={styles.session}>
 						<Subtitle children="Outros jogos" />
 					</div>
 				</Container>

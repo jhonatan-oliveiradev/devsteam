@@ -7,3 +7,25 @@
   justify-content: space-between;
   padding: 0 3.75rem;
 }
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 25rem;
+  background-color: #316282;
+  padding: 8px 10px;
+}
+
+.search input {
+  background-color: #316282;
+  color: #C7C7C7;
+  outline: none;
+  border: none;
+  font-style: italic;
+}
+
+.search svg {
+  cursor: pointer;
+}

@@ -4,3 +4,11 @@
   gap: 1.25rem;
   font-size: 1.25rem;
 }
+
+.logo a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #fff;
+  text-decoration: none;
+}
