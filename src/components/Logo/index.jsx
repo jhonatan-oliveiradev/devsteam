@@ -12,7 +12,7 @@ export default function Logo() {
 					width={60}
 					height={60}
 				/>
-				<h1>DevSteam</h1>
+				<h1 className={styles.name}>DevSteam</h1>
 			</Link>
 		</div>
 	);

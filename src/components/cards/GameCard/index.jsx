@@ -6,8 +6,9 @@ export default function GameCard() {
 	return (
 		<div className={styles["game-card"]}>
 			<Image
+				className={styles.image}
 				src="/products/counter-strike.jpg"
-				alt=""
+				alt="jogo"
 				width={305}
 				height={145}
 			/>

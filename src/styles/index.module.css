@@ -7,6 +7,7 @@
   justify-content: space-between;
   gap: 0.5rem;
   margin-top: 1.25rem;
+  flex-wrap: wrap;
 }
 
 .game-container {
@@ -14,4 +15,10 @@
   flex-direction: column;
   gap: 1.25rem;
   margin-top: 1.25rem;
+}
+
+@media screen and (max-width: 850px) {
+  .sale-container {
+    justify-content: center;
+  }
 }
