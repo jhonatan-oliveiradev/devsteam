@@ -1,0 +1,28 @@
+.search {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 25rem;
+	background-color: #316282;
+	padding: 8px 10px;
+}
+
+.search input {
+	background-color: #316282;
+	outline: none;
+	border: none;
+	color: #fff;
+}
+
+.search input::placeholder {
+	font-style: italic;
+	color: #c7c7c7;
+}
+
+.search svg {
+	cursor: pointer;
+}
+
+.full-width {
+	width: 100%;
+}
